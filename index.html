@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <title>Cat Clicker</title>
+    </head>
+    <body>
+        <div class="cat-list">
+            <ul>
+                <li id="catOne" onclick="clickCatOne(this)">猫咪1</li>
+                <li id="catTwo" onclick="clickCatTwo(this)">猫咪2</li>
+                <li id="catThree"  onclick="clickCatThree(this)">猫咪3</li>
+                <li id="catFour"  onclick="clickCatFour(this)">猫咪4</li>
+                <li id="catFive"  onclick="clickCatFive(this)">猫咪5</li>
+            </ul>
+        </div>
+        <div class="cat-info" style="display: none" id="catInfo">
+            <img src="" id="catImage" onclick="clickImage()">
+            <ul>
+                <li id="catName"></li>
+                <li id="clickCounter"></li>
+            </ul>
+        </div>
+        <script type="application/javascript" src="js/cat.js"></script>
+    </body>
+</html>

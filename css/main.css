@@ -1,0 +1,34 @@
+
+.cat-list {
+    float: left;
+    position: relative;
+    background-color: darkgrey;
+    width: 200px;
+}
+
+.cat-list ul {
+    list-style: none;
+}
+
+.cat-list li {
+    margin-right: 40px;
+}
+
+.cat-list li:hover{
+    cursor: pointer;
+    background: dodgerblue;
+}
+
+.cat-info {
+    float: left;
+    margin-left: 300px;
+}
+
+.cat-info ul {
+    list-style: none;
+}
+
+.cat-info img {
+    width: 250px;
+    height: 250px;
+}
